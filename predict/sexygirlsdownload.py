@@ -19,6 +19,6 @@ data = (result['outputs'][0]['data']['concepts'])
 
 for item in data:
 
-    if item['name'] == 'adult' and item['value'] >= 0.5 or item['name'] == 'nude' and item['value'] >= 0.5 or item['name'] == 'sexy' and item['value'] >= 0.5:
+    if item['name'] == 'adult' and item['value'] >= 0.5 or item['name'] == 'nude' and item['value'] >= 0.5 or item['name'] == 'sexy' and item['value'] >= 0.5 or item['name'] == 'buttocks' and item['value'] >= 0.5 or item['name'] == 'torso' and item['value'] >= 0.5 or item['name'] == 'model' and item['value'] >= 0.5 or tem['name'] == 'beautiful' and item['value'] >= 0.5:
 
         urllib.request.urlretrieve(url, "image1.jpg")
